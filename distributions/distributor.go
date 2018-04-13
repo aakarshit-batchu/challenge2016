@@ -15,6 +15,7 @@ type Distributor struct {
 type Location struct {
 	City     string `json:"cityCode"`
 	Province string `json:"provinceCode"`
+	District string `json:districtCode`
 	Country  string `json:"countryCode"`
 }
 
